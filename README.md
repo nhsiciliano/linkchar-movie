@@ -1,3 +1,9 @@
+## Descripción
+
+Protecto creado a través de NextJS
+Combinación de Tailwind Css para navegación y Css mediante styles
+Pendiente conexión a la API de themovieddb
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
