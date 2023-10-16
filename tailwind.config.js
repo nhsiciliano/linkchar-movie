@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -12,6 +15,22 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'pink': {
+          100: '#fce7f3',
+          200: '#fbcfe8',
+          300: '#f9a8d4',
+          400: '#f472b6',
+          500: '#ec4899',
+          600: '#db2777',
+          700: '#be185d',
+          800: '#9d174d',
+          900: '#831843',
+        }
+      },
+      gradientColorStopPositions: {
+        33: '33%',
+      }
     },
   },
   plugins: [],
