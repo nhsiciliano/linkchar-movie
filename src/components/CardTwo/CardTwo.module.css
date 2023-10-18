@@ -1,0 +1,86 @@
+.imgTwo {
+    width: 830px;
+    height: 130px;
+    object-fit: cover;
+    object-position: 80% 20%;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.imageTitle {
+    position: relative;
+}
+
+.sectitle {
+    position: absolute;
+    right: 48px;
+    top: 45px;
+    bottom: 6px;
+}
+
+.sectitle h1 {
+    font-size: 28px;
+    font-weight: 950;
+    color: #FFF;
+}
+
+.buttonPost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #F36F45;
+    gap: 5px;
+    position: absolute;
+    left: 14px;
+    bottom: 18px;
+}
+
+.buttonPost h3 {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.playTwo {
+    width: 20px;
+    height: 20px;
+}
+
+.superImg {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 9px;
+    left: 14px;
+}
+
+.circ {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgBoy {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    border: 1px solid #FFF;
+    background: url("https://s3-alpha-sig.figma.com/img/9673/1f6a/bbd65182e7243a55d381e3bca43efbea?Expires=1698624000&Signature=Oyj14hWY1ZC0SWHF1BIeAOfoWSM0Tpj04t~7i5X~0qH13uqu-a~NkcsVq2LwnFp2GRCYjStWu5JVRN6GpVP0BSgMjE3Y7BMvT0fbFRv-LZAX64kBRne9b2PA4ZY8Ij66D3hQ5MHp1z26CslZ3wojG8k2aPnw5uax7LfJhhBL0hr7res3MZFLun9Q26zSaV6VNljX61bggZ5Q0W6u~XhWdjjdI8Vgsq9VUH7GfcU6uDr25Q~H~ocOXaENKem924X82eyqYcciApkwsSYpfNBuZ0iiRtDdaMrhKa4mESW2ASNam2~FGMe20cadMe8k87Qmzi0pFcLN~6ydP7bNicpR4w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+}
+
+.imgGirl {
+    width: 24px;
+    height: 24px;
+    margin-left: -10px;
+    border-radius: 24px;
+    border: 1px solid #FFF;
+    background: url("https://s3-alpha-sig.figma.com/img/2a1e/dc98/4d98c93ea06715f11e25ad1906cb89fa?Expires=1698624000&Signature=hiE9-eqBlWQjdx7KRTZ1POOWKFaq4kCfqqPJwNaKFpO65fBvbT~zKj3xodOIq0GaYsUvlDmXj~-q9nz1VjxdTq9Eu~jIjX2v8GtZHQWhdyAsX~lI~1~poHBRyb1Aj45ZUbcixt3Bn6dXz4rjzvP1h0hnin6Y5vd96V~KNCCSI27cmnfxhl-uH7rPSdtIyX6lmqkEfWpoJvuv8Dt05K469Qgr23PLoFk8HRzp9MPIpkXma6Fwjd6zooOadIrW7OzWmdGz6NtVeu7LMUacFa9L9Y8GYhWka3pg3rfA8MIIpfksDnMlMC5stTR5Lw-tN~cdUuogfNREn1SWevWV5WQMcg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+}
+
+.friend h4 {
+    font-size: 10px;
+    font-weight: 600;
+    color: #FFF;
+}
