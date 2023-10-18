@@ -2,7 +2,7 @@
     width: 830px;
     height: 130px;
     object-fit: cover;
-    object-position: 80% 20%;
+    object-position: 75% 25%;
     border-radius: 20px;
     flex-shrink: 0;
 }
